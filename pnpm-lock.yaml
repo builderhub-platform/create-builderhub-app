@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@builderhub/eslint-config': ^0.0.4
-  '@builderhub/prettier-config': ^0.0.7
+  '@builderhub/prettier-config': ^0.0.8
   '@types/node': 18.11.18
   create-create-app: 7.3.0
   husky: 8.0.3
@@ -18,8 +18,8 @@ dependencies:
   create-create-app: 7.3.0
 
 devDependencies:
-  '@builderhub/eslint-config': 0.0.4_c4kgu5jkam44kwteqtkjrwynym
-  '@builderhub/prettier-config': 0.0.7_prettier@2.8.2
+  '@builderhub/eslint-config': 0.0.4_7zh76q2qrt7th5cvcxurl33jgy
+  '@builderhub/prettier-config': 0.0.8_prettier@2.8.2
   '@types/node': 18.11.18
   husky: 8.0.3
   lint-staged: 13.1.0
@@ -60,14 +60,9 @@ packages:
       regenerator-runtime: 0.13.11
     dev: false
 
-  /@builderhub/eslint-config/0.0.4_c4kgu5jkam44kwteqtkjrwynym:
+  /@builderhub/eslint-config/0.0.4_7zh76q2qrt7th5cvcxurl33jgy:
     resolution: {integrity: sha512-s8ug98VSNtFNR9GWy5jZK0J+VIy0mFi5kZJ36YzU5V5/KfeFc/FmD3uWkRfg3clAHB1wUCHzlWFFHu8QD/I3iQ==}
     peerDependencies:
-      '@typescript-eslint/eslint-plugin': 5.48.0
-      '@typescript-eslint/parser': 5.48.0
-      eslint: 8.31.0
-      eslint-config-prettier: 8.6.0
-      eslint-plugin-prettier: 4.2.1
       prettier: 2.8.2
     dependencies:
       '@typescript-eslint/eslint-plugin': 5.48.0_k73wpmdolxikpyqun3p36akaaq
@@ -76,10 +71,13 @@ packages:
       eslint-config-prettier: 8.6.0_eslint@8.31.0
       eslint-plugin-prettier: 4.2.1_iu5s7nk6dw7o3tajefwfiqfmge
       prettier: 2.8.2
+    transitivePeerDependencies:
+      - supports-color
+      - typescript
     dev: true
 
-  /@builderhub/prettier-config/0.0.7_prettier@2.8.2:
-    resolution: {integrity: sha512-+Gw7wNkvl3jk9xZU9ViE/uOEx5o1Nq1SLZ+jUS2grwiCL8EXOD0KViijNcjWfYhCg2RkJTHxE5i2bMmaO4WvXA==}
+  /@builderhub/prettier-config/0.0.8_prettier@2.8.2:
+    resolution: {integrity: sha512-dSQZXm9U1gKzsb+UjsQmCclu3v5y2jXU8OM0VHXdBMr28JiB0mwiwywF5QrB7KdTuk7h8xmLSI2CR/eYg/4wxg==}
     peerDependencies:
       prettier: ^2.8.2
     dependencies:
