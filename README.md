@@ -31,9 +31,32 @@ yarn create builderhub-app <name>
 ## Templates
 
 ```bash
-npx create-builderhub-app <name> --template <template>
+npx create-builderhub-app <name> --template=<template>
 ```
 
 ### `default`
 
 Default TypeScript App
+
+```bash
+npx create-builderhub-app <name>
+```
+
+### `vanilla-ts`
+
+Minimum setting for VanillaJS, HTML webpage
+**required NodeJS version over 12.x**
+
+- VanillaJS
+- Typescript
+- Webpack
+- Pure CSS
+- Autoprefixer (`postcss-loader`)
+- Assets(`public`)
+- Browser Sync (dev web server)
+- Minimization(Image, HTML, CSS, JS) on production
+- `gh-pages` Deployment
+
+```bash
+npx create-builderhub-app <name> --template=vanilla-ts
+```
