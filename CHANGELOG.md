@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/builderhub-platform/create-builderhub-app/compare/v0.0.4...v0.0.5) (2023-01-07)
+
+
+### Features
+
+* **types:** declaration ([cad0691](https://github.com/builderhub-platform/create-builderhub-app/commit/cad0691266a98614965481953b22f2be41c525b8))
+
 ### [0.0.4](https://github.com/builderhub-platform/create-builderhub-app/compare/v0.0.3...v0.0.4) (2023-01-07)
 
 
