@@ -12,7 +12,8 @@
     "dev": "tsup src/cli.ts --watch",
     "prepublishOnly": "npm run clean && npm run build",
     "prepare": "husky install",
-    "release": "standard-version --no-verify"
+    "release": "standard-version --no-verify",
+    "typecheck": "tsc --noEmit"
   },
   "bin": "dist/cli.js",
   "files": [
