@@ -1,0 +1,55 @@
+{
+  "name": "create-builderhub-app",
+  "description": "Create Builderhub App",
+  "version": "0.0.0",
+  "author": {
+    "name": "Eunchurn Park",
+    "email": "eunchurn.park@gmail.com"
+  },
+  "scripts": {
+    "build": "tsup src/cli.ts --minify",
+    "clean": "shx rm -rf lib",
+    "dev": "tsup src/cli.ts --watch",
+    "prepublishOnly": "npm run clean && npm run build",
+    "prepare": "husky install",
+    "release": "standard-version --no-verify"
+  },
+  "bin": "dist/cli.js",
+  "files": [
+    "dist",
+    "templates"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/builderhub-platform/create-builderhub-app.git"
+  },
+  "keywords": [
+    "create-builderhub-app",
+    "builderhub"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/builderhub-platform/create-builderhub-app/issues"
+  },
+  "homepage": "https://github.com/builderhub-platform/create-builderhub-app#readme",
+  "lint-staged": {
+    "*.+(js|jsx|ts|tsx|json|css|md|mdx)": [
+      "prettier --write"
+    ]
+  },
+  "devDependencies": {
+    "@builderhub/eslint-config": "^0.0.4",
+    "@builderhub/prettier-config": "^0.0.7",
+    "@types/node": "18.11.18",
+    "husky": "8.0.3",
+    "lint-staged": "13.1.0",
+    "prettier": "2.8.2",
+    "pretty-quick": "3.1.3",
+    "standard-version": "9.5.0",
+    "tsup": "6.5.0",
+    "typescript": "4.9.4"
+  },
+  "dependencies": {
+    "create-create-app": "7.3.0"
+  }
+}
