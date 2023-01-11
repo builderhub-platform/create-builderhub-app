@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.8](https://github.com/builderhub-platform/create-builderhub-app/compare/v0.0.5...v0.0.8) (2023-01-11)
+
+
+### Features
+
+* **vanilla-ts:** template add ([dd869e5](https://github.com/builderhub-platform/create-builderhub-app/commit/dd869e5aea2ddfb2728905fa018f3e3991542e6d))
+
+
+### Bug Fixes
+
+* **vanilla-ts:** publicPath ([6f646a9](https://github.com/builderhub-platform/create-builderhub-app/commit/6f646a9288b6a0aafb4b862eedddf94978f3b75a))
+* **vanilla-ts:** script and package ([ee3273c](https://github.com/builderhub-platform/create-builderhub-app/commit/ee3273c194976bb7d7ff10aaad1a20ceca09af98))
+
 ### [0.0.7](https://github.com/builderhub-platform/create-builderhub-app/compare/v0.0.5...v0.0.7) (2023-01-11)
 
 
