@@ -22,7 +22,6 @@ const dev: Configuration & { devServer: DevServerConfiguration } = {
       hash: true,
       filename: "index.html",
       chunks: ["main"],
-      // template: `./${baseDirectory}/assets/html/index.html`,
       template: path.join(__dirname, "../public/index.html"),
     }),
     new MiniCssExtractPlugin({
