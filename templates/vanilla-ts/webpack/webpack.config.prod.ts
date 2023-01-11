@@ -5,7 +5,7 @@ import CssMinimizerPlugin from "css-minimizer-webpack-plugin";
 import TerserPlugin from "terser-webpack-plugin";
 import ImageMinimizerPlugin from "image-minimizer-webpack-plugin";
 
-import { config, baseDirectory } from "./webpack.config.common";
+import { config } from "./webpack.config.common";
 
 const prod: Configuration = {
   ...config,
@@ -56,7 +56,7 @@ const prod: Configuration = {
       hash: true,
       filename: "index.html",
       chunks: ["main"],
-      template: `./${baseDirectory}/assets/html/index.html`,
+      template: "public/index.html",
       minify: true,
     }),
     new MiniCssExtractPlugin({
