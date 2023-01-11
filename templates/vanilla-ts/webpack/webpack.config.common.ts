@@ -12,7 +12,7 @@ export const config: Configuration = {
   output: {
     path: path.resolve(__dirname, "../dist"),
     filename: "[name].bundle.js",
-    publicPath: "/{{name}}/", // change to your github repo project name
+    // publicPath: "/{{name}}/", // change to your github repo project name for gh-page deployment
   },
   target: "web",
   node: {
