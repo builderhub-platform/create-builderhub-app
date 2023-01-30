@@ -1,0 +1,4 @@
+node_modules
+./templates/nextjs-mui/src/pages/_document.tsx
+./templates/nextjs-mui/src/pages/about.tsx
+./templates/nextjs-mui/src/pages/index.tsx

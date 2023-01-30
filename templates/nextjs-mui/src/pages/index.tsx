@@ -15,7 +15,6 @@ const Home: NextPage = () => {
 
       <Box
         className={styles.main}
-        // {{{{raw}}}}
         sx={{
           my: 4,
           display: "flex",
@@ -23,7 +22,6 @@ const Home: NextPage = () => {
           justifyContent: "center",
           alignItems: "center",
         }}
-        // {{{{/raw}}}}
       >
         <Typography
           className={styles.title}
