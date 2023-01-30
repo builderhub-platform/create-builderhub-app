@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.9](https://github.com/builderhub-platform/create-builderhub-app/compare/v0.0.8...v0.0.9) (2023-01-30)
+
+
+### Features
+
+* **nextjs-mui:** template add ([f22abae](https://github.com/builderhub-platform/create-builderhub-app/commit/f22abaea3810209c747693272c39cf2202c679e8))
+
 ### [0.0.8](https://github.com/builderhub-platform/create-builderhub-app/compare/v0.0.5...v0.0.8) (2023-01-11)
 
 
