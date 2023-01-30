@@ -60,3 +60,11 @@ Minimum setting for VanillaJS, HTML webpage
 ```bash
 npx create-builderhub-app <name> --template=vanilla-ts
 ```
+
+### `nextjs-mui`
+
+Next.js + Material UI v5 with TypeScript Project
+
+```bash
+npx create-builderhub-app <name> --template=nextjs-mui
+```
