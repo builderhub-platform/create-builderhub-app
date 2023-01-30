@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 patchedDependencies:
   create-create-app@7.3.0:
-    hash: 5ij6ucpysnax32kduih37xvxti
+    hash: ljn62jeugph7ziw2tnqxxixfie
     path: patches/create-create-app@7.3.0.patch
 
 specifiers:
@@ -20,7 +20,7 @@ specifiers:
   typescript: 4.9.4
 
 dependencies:
-  create-create-app: 7.3.0_5ij6ucpysnax32kduih37xvxti
+  create-create-app: 7.3.0_ljn62jeugph7ziw2tnqxxixfie
 
 devDependencies:
   '@builderhub/eslint-config': 0.0.5_rmianmyrjewphjrfckz6jri3ba
@@ -904,7 +904,7 @@ packages:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
     dev: true
 
-  /create-create-app/7.3.0_5ij6ucpysnax32kduih37xvxti:
+  /create-create-app/7.3.0_ljn62jeugph7ziw2tnqxxixfie:
     resolution: {integrity: sha512-4BzSuq75JihB3hvFQHu1mqPDLUBcR3u5N9yShG6LSv84O7NjTNc/hE+cgDlSJZzfgr7LRahtI5FwPxLyVi/oPg==}
     hasBin: true
     dependencies:
