@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.13](https://github.com/builderhub-platform/create-builderhub-app/compare/v0.0.12...v0.0.13) (2023-01-30)
+
+
+### Bug Fixes
+
+* **nextjs-mui:** raw-helper to raw ([b6713ba](https://github.com/builderhub-platform/create-builderhub-app/commit/b6713ba9407d4360c1a1563ce274b5ad22ad92b8))
+
 ### [0.0.12](https://github.com/builderhub-platform/create-builderhub-app/compare/v0.0.11...v0.0.12) (2023-01-30)
 
 
