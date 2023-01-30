@@ -10,6 +10,7 @@ export default function About() {
   return (
     <Container maxWidth="lg">
       <Box
+        // {{{{raw-helper}}}}
         sx={{
           my: 4,
           display: "flex",
@@ -17,6 +18,7 @@ export default function About() {
           justifyContent: "center",
           alignItems: "center",
         }}
+        // {{{{/raw-helper}}}}
       >
         <Typography
           className={styles.title}
