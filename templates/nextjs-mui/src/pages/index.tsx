@@ -20,6 +20,12 @@ const Home: NextPage = () => {
           component="h1"
           gutterBottom
         >
+          {{ name }}
+        </Typography>
+        <Typography className={styles.subtitle} variant="h2" component="h2">
+          {{ description }}
+        </Typography>
+        <Typography className={styles.subtitle} variant="h2" component="h2">
           Welcome to{" "}
           <Link href="https://github.com/builderhub-platform/create-builderhub-app">
             Create Builderhub App

@@ -21,7 +21,7 @@ export default function About() {
           </Link>{" "}
         </Typography>
         <Typography className={styles.subtitle} variant="h2" component="h2">
-          Templated by MUI v5 + Next.js with TypeScript example!
+          {{ description }}
         </Typography>
         <Box maxWidth="sm">
           <Button variant="contained" component={Link} noLinkStyle href="/">
