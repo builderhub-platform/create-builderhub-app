@@ -3,6 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import { Container, Typography, Box, Link } from "@mui/material";
+import clsx from "clsx";
 
 const Home: NextPage = () => {
   return (
@@ -12,17 +13,7 @@ const Home: NextPage = () => {
         <meta name="description" content="{{description}}" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <Box
-        className={styles.main}
-        sx={{
-          my: 4,
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
+      <Box className={clsx([styles.main, styles.box])}>
         <Typography
           className={styles.title}
           variant="h1"

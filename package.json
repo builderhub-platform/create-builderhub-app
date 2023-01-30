@@ -13,7 +13,8 @@
     "prepublishOnly": "npm run clean && npm run build",
     "prepare": "husky install",
     "release": "standard-version --no-verify",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "prettier": "prettier --write ."
   },
   "bin": "dist/cli.js",
   "files": [
@@ -35,12 +36,12 @@
   "homepage": "https://github.com/builderhub-platform/create-builderhub-app#readme",
   "lint-staged": {
     "*.+(js|jsx|ts|tsx|json|css|md|mdx)": [
-      "prettier --write"
+      "prettier --write --ignore-path ./templates/nextjs-mui/src/pages/_document.tsx"
     ]
   },
   "devDependencies": {
-    "@builderhub/eslint-config": "^0.0.5",
-    "@builderhub/prettier-config": "^0.0.9",
+    "@builderhub/eslint-config": "^0.0.6",
+    "@builderhub/prettier-config": "^0.0.10",
     "@types/node": "18.11.18",
     "husky": "8.0.3",
     "lint-staged": "13.1.0",

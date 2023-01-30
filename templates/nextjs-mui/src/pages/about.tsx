@@ -9,15 +9,7 @@ import { Link } from "src/components";
 export default function About() {
   return (
     <Container maxWidth="lg">
-      <Box
-        sx={{
-          my: 4,
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
+      <Box className={styles.box}>
         <Typography
           className={styles.title}
           variant="h1"
