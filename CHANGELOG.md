@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.14](https://github.com/builderhub-platform/create-builderhub-app/compare/v0.0.13...v0.0.14) (2023-01-30)
+
+
+### Bug Fixes
+
+* **nextjs-mui:** remove double back slashes ([5f57be8](https://github.com/builderhub-platform/create-builderhub-app/commit/5f57be8b60524899d2e47b1f8c9dc8a1e6111085))
+* **nextjs-mui:** without raw-helper ([5a49252](https://github.com/builderhub-platform/create-builderhub-app/commit/5a492521197795d3b5449ce8c1391685fbb604fe))
+* **prettier:** add ignore ([cfceed1](https://github.com/builderhub-platform/create-builderhub-app/commit/cfceed11962429d217fd05beeae55c74cb4c0ae5))
+
 ### [0.0.13](https://github.com/builderhub-platform/create-builderhub-app/compare/v0.0.12...v0.0.13) (2023-01-30)
 
 ### Bug Fixes
