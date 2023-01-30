@@ -53,5 +53,10 @@
   },
   "dependencies": {
     "create-create-app": "7.3.0"
+  },
+  "pnpm": {
+    "patchedDependencies": {
+      "create-create-app@7.3.0": "patches/create-create-app@7.3.0.patch"
+    }
   }
 }

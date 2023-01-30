@@ -1,5 +1,10 @@
 lockfileVersion: 5.4
 
+patchedDependencies:
+  create-create-app@7.3.0:
+    hash: 5ij6ucpysnax32kduih37xvxti
+    path: patches/create-create-app@7.3.0.patch
+
 specifiers:
   '@builderhub/eslint-config': ^0.0.5
   '@builderhub/prettier-config': ^0.0.9
@@ -15,10 +20,10 @@ specifiers:
   typescript: 4.9.4
 
 dependencies:
-  create-create-app: 7.3.0
+  create-create-app: 7.3.0_5ij6ucpysnax32kduih37xvxti
 
 devDependencies:
-  '@builderhub/eslint-config': 0.0.5_uhxzhaxu465qzax2tftpee5s7i
+  '@builderhub/eslint-config': 0.0.5_rmianmyrjewphjrfckz6jri3ba
   '@builderhub/prettier-config': 0.0.9_prettier@2.8.3
   '@types/node': 18.11.18
   husky: 8.0.3
@@ -60,9 +65,14 @@ packages:
       regenerator-runtime: 0.13.11
     dev: false
 
-  /@builderhub/eslint-config/0.0.5_uhxzhaxu465qzax2tftpee5s7i:
+  /@builderhub/eslint-config/0.0.5_rmianmyrjewphjrfckz6jri3ba:
     resolution: {integrity: sha512-wxNHX+K+6i0QM02LatgXQqznM9rBe5e6aYoHS8esXP2YBxPnjkGVSm1wEOar4aSPPhoFDPdvKNk7Alfg9MjnLw==}
     peerDependencies:
+      '@typescript-eslint/eslint-plugin': 5.48.0
+      '@typescript-eslint/parser': 5.48.0
+      eslint: 8.31.0
+      eslint-config-prettier: 8.6.0
+      eslint-plugin-prettier: 4.2.1
       prettier: 2.8.2
     dependencies:
       '@typescript-eslint/eslint-plugin': 5.48.0_k73wpmdolxikpyqun3p36akaaq
@@ -71,9 +81,6 @@ packages:
       eslint-config-prettier: 8.6.0_eslint@8.31.0
       eslint-plugin-prettier: 4.2.1_do5yx3dogbskqc4h5x5ilvlwyy
       prettier: 2.8.3
-    transitivePeerDependencies:
-      - supports-color
-      - typescript
     dev: true
 
   /@builderhub/prettier-config/0.0.9_prettier@2.8.3:
@@ -897,7 +904,7 @@ packages:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
     dev: true
 
-  /create-create-app/7.3.0:
+  /create-create-app/7.3.0_5ij6ucpysnax32kduih37xvxti:
     resolution: {integrity: sha512-4BzSuq75JihB3hvFQHu1mqPDLUBcR3u5N9yShG6LSv84O7NjTNc/hE+cgDlSJZzfgr7LRahtI5FwPxLyVi/oPg==}
     hasBin: true
     dependencies:
@@ -917,6 +924,7 @@ packages:
     transitivePeerDependencies:
       - encoding
     dev: false
+    patched: true
 
   /cross-spawn/7.0.3:
     resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==}
