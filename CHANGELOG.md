@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.11](https://github.com/builderhub-platform/create-builderhub-app/compare/v0.0.10...v0.0.11) (2023-01-30)
+
+
+### Bug Fixes
+
+* **raw-helper:** patch ([3688442](https://github.com/builderhub-platform/create-builderhub-app/commit/36884421c182648b2ab58ed0d7157d58f1638ce1))
+
 ### [0.0.10](https://github.com/builderhub-platform/create-builderhub-app/compare/v0.0.8...v0.0.10) (2023-01-30)
 
 
