@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.17](https://github.com/builderhub-platform/create-builderhub-app/compare/v1.1.16...v1.1.17) (2023-02-03)
+
+
+### Bug Fixes
+
+* **nextjs-mui:** remove @next/font theme ([6798dcd](https://github.com/builderhub-platform/create-builderhub-app/commit/6798dcd152a8a93fb943f09563bfa34f000c9165))
+
 ### [1.1.16](https://github.com/builderhub-platform/create-builderhub-app/compare/v0.0.15...v1.1.16) (2023-02-03)
 
 
