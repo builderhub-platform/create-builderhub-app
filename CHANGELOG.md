@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.16](https://github.com/builderhub-platform/create-builderhub-app/compare/v0.0.15...v1.1.16) (2023-02-03)
+
+
+### Features
+
+* **theme:** update from builderhub/mui-theme ([10f183d](https://github.com/builderhub-platform/create-builderhub-app/commit/10f183d1a4f76ed7e22e595275ec26237014db5b))
+
 ### [0.0.15](https://github.com/builderhub-platform/create-builderhub-app/compare/v0.0.14...v0.0.15) (2023-01-30)
 
 
