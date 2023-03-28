@@ -42,7 +42,7 @@
   "devDependencies": {
     "@builderhub/eslint-config": "^0.0.6",
     "@builderhub/prettier-config": "^0.0.10",
-    "@types/node": "18.11.18",
+    "@types/node": "18.15.11",
     "husky": "8.0.3",
     "lint-staged": "13.1.0",
     "prettier": "2.8.3",
