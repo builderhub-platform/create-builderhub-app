@@ -68,3 +68,11 @@ Next.js + Material UI v5 with TypeScript Project
 ```bash
 npx create-builderhub-app <name> --template=nextjs-mui
 ```
+
+### `lambda-api-gateway`
+
+AWS Lambda & AWS API Gateway project managed by Terraform
+
+```bash
+npx create-builderhub-app <name> --template=lambda-api-gateway
+```
