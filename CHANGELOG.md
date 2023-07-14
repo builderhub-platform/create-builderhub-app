@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/builderhub-platform/create-builderhub-app/compare/v1.1.17...v1.2.0) (2023-07-14)
+
+
+### Features
+
+* **lambda-api-gateway:** added ([2da51a9](https://github.com/builderhub-platform/create-builderhub-app/commit/2da51a989a70ca70d883fb55f2c77db0c8dcc660))
+
 ### [1.1.17](https://github.com/builderhub-platform/create-builderhub-app/compare/v1.1.16...v1.1.17) (2023-02-03)
 
 
