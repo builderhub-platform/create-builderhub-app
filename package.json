@@ -1,7 +1,7 @@
 {
   "name": "create-builderhub-app",
   "description": "Create Builderhub App",
-  "version": "1.1.17",
+  "version": "1.2.0",
   "author": {
     "name": "Eunchurn Park",
     "email": "eunchurn.park@gmail.com"
