@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 patchedDependencies:
   create-create-app@7.3.0:
     hash: ljn62jeugph7ziw2tnqxxixfie
@@ -15,8 +19,8 @@ devDependencies:
     specifier: ^0.0.6
     version: 0.0.6(@typescript-eslint/eslint-plugin@5.49.0)(@typescript-eslint/parser@5.49.0)(eslint-config-prettier@8.6.0)(eslint-plugin-prettier@4.2.1)(eslint@8.33.0)(prettier@2.8.3)
   '@builderhub/prettier-config':
-    specifier: ^0.0.10
-    version: 0.0.10(prettier@2.8.3)
+    specifier: ^0.0.13
+    version: 0.0.13(prettier@2.8.3)
   '@types/node':
     specifier: 18.15.11
     version: 18.15.11
@@ -93,10 +97,11 @@ packages:
       prettier: 2.8.3
     dev: true
 
-  /@builderhub/prettier-config@0.0.10(prettier@2.8.3):
-    resolution: {integrity: sha512-XJu62aXSHki7sp1y8neVuqNSzQiKM7i486UhCIYr9+HkuwKEu8uHHuwKaWx6+zau4tztMojxfC1NSS8x395M0A==}
+  /@builderhub/prettier-config@0.0.13(prettier@2.8.3):
+    resolution: {integrity: sha512-Bq9mXEU+bHtNGku+FmZFP0kOXXB8lX/ncCyS9XJlmeNQW8Y7B8J/unFMQnWOKjitFa4q2OXIAeMiIwV0BbW1KQ==}
+    engines: {node: '>=18.0.0'}
     peerDependencies:
-      prettier: ^2.8.2
+      prettier: ^2.8.2 || ^3.0.0
     dependencies:
       prettier: 2.8.3
     dev: true
