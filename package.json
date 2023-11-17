@@ -40,7 +40,7 @@
     ]
   },
   "devDependencies": {
-    "@builderhub/eslint-config": "^0.0.6",
+    "@builderhub/eslint-config": "^0.0.9",
     "@builderhub/prettier-config": "^0.0.10",
     "@types/node": "18.15.11",
     "husky": "8.0.3",
