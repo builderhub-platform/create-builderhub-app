@@ -25,7 +25,7 @@
   "dependencies": {},
   "devDependencies": {
     "@builderhub/eslint-config": "0.0.5",
-    "@builderhub/prettier-config": "0.0.9",
+    "@builderhub/prettier-config": "0.0.13",
     "@jest/types": "29.6.3",
     "@types/browser-sync-webpack-plugin": "2.2.2",
     "@types/jest": "29.5.4",
