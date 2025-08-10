@@ -35,7 +35,7 @@
     "@types/svgo": "2.6.4",
     "browser-sync": "2.27.11",
     "browser-sync-webpack-plugin": "2.3.0",
-    "canvas": "2.11.0",
+    "canvas": "2.11.2",
     "cross-env": "7.0.3",
     "css-loader": "6.7.3",
     "css-minimizer-webpack-plugin": "4.2.2",
