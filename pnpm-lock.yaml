@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 patchedDependencies:
   create-create-app@7.3.0:
     hash: ljn62jeugph7ziw2tnqxxixfie
@@ -15,8 +19,8 @@ devDependencies:
     specifier: ^0.0.6
     version: 0.0.6(@typescript-eslint/eslint-plugin@5.49.0)(@typescript-eslint/parser@5.49.0)(eslint-config-prettier@8.6.0)(eslint-plugin-prettier@4.2.1)(eslint@8.33.0)(prettier@2.8.3)
   '@builderhub/prettier-config':
-    specifier: ^0.0.10
-    version: 0.0.10(prettier@2.8.3)
+    specifier: ^0.0.13
+    version: 0.0.13(prettier@2.8.3)
   '@types/node':
     specifier: 18.15.11
     version: 18.15.11
@@ -93,10 +97,11 @@ packages:
       prettier: 2.8.3
     dev: true
 
-  /@builderhub/prettier-config@0.0.10(prettier@2.8.3):
-    resolution: {integrity: sha512-XJu62aXSHki7sp1y8neVuqNSzQiKM7i486UhCIYr9+HkuwKEu8uHHuwKaWx6+zau4tztMojxfC1NSS8x395M0A==}
+  /@builderhub/prettier-config@0.0.13(prettier@2.8.3):
+    resolution: {integrity: sha512-Bq9mXEU+bHtNGku+FmZFP0kOXXB8lX/ncCyS9XJlmeNQW8Y7B8J/unFMQnWOKjitFa4q2OXIAeMiIwV0BbW1KQ==}
+    engines: {node: '>=18.0.0'}
     peerDependencies:
-      prettier: ^2.8.2
+      prettier: ^2.8.2 || ^3.0.0
     dependencies:
       prettier: 2.8.3
     dev: true
@@ -139,6 +144,7 @@ packages:
   /@humanwhocodes/config-array@0.11.8:
     resolution: {integrity: sha512-UybHIJzJnR5Qc/MsD9Kr+RpO2h+/P1GhOwdiLPXK5TWk5sgTdu88bTD9UP+CKbPPh5Rni1u0GjAdYQLemG8g+g==}
     engines: {node: '>=10.10.0'}
+    deprecated: Use @eslint/config-array instead
     dependencies:
       '@humanwhocodes/object-schema': 1.2.1
       debug: 4.3.4
@@ -154,6 +160,7 @@ packages:
 
   /@humanwhocodes/object-schema@1.2.1:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
+    deprecated: Use @eslint/object-schema instead
     dev: true
 
   /@hutson/parse-repository-url@3.0.2:
@@ -1393,6 +1400,7 @@ packages:
   /eslint@8.33.0:
     resolution: {integrity: sha512-WjOpFQgKK8VrCnAtl8We0SUOy/oVZ5NHykyMiagV1M9r8IFpIJX7DduK6n1mpfhlG7T1NLWm2SuD8QB7KFySaA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
     dependencies:
       '@eslint/eslintrc': 1.4.1
@@ -2850,6 +2858,7 @@ packages:
 
   /rimraf@3.0.2:
     resolution: {integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==}
+    deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
     dependencies:
       glob: 7.1.6
